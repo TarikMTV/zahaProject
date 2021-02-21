@@ -1,0 +1,233 @@
+body {
+   background-color: rgb(178, 200, 241);
+   font-family: Sans-serif;
+   color: black;
+   font-size: 100%;
+   margin: 0;
+   padding: 10px;
+
+}
+
+* {
+   box-sizing: border-box;
+}
+
+header {
+   display: block;
+}
+
+.header {
+   background: url('../img/qwq.jpg') no-repeat center top / cover;
+   padding: 10px 0 300px 10px;
+   position: relative;
+   color: white;
+   font-size: 100%;
+   display: flex;
+   justify-content:flex-start;
+   letter-spacing: 0.1em;
+}
+
+.container-head {
+   width: 1170px; 
+   margin: 0 auto;
+   display: block;
+   
+}
+
+.button {
+   background: rgb(47, 47, 182);
+   text-decoration: none;
+   color: white;
+   display: block;
+	font-size: 17px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding: 17px 47px;
+	border: 1px solid #fff;
+   border-radius: 5px;
+	width: 200px;
+	transition: all 0.5s ease;
+}
+
+.button:hover {
+   background: white;
+   color: blue;
+   transition: all 0.5s ease;
+   cursor: pointer;
+}
+
+div {
+   display: block;
+}
+
+h1 {
+   font-size: 3em;
+   letter-spacing: 0.1em;
+}
+
+h3 {
+   text-align: center;
+   font-size: 2rem;
+   font-weight: 300;
+   padding: 20px 0 0 0;
+}
+
+
+.main {
+   padding: 0;
+}
+
+.one {
+   background-color: rgb(172, 206, 206);
+   
+}
+
+.container {
+   display: flex;
+   flex-direction: row-reverse;
+   align-self: center;
+   margin: 0 auto;
+   width: 90%;
+   max-width: 900px;
+}
+
+.bike {
+   width: 300px;
+   margin: 15px 15px 15px 0;
+}
+
+.article {
+   padding: 30px;
+}
+
+.two {
+   background-color: rgb(112, 212, 112);
+   color: white;
+}
+
+.container-icons {
+   margin: 0 auto;
+   width: 90%;
+   max-width: 900px;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+
+.icons > i {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   margin: 0 auto;
+   padding: 10px;
+   width: 100px;
+   height: 100px;
+   position: relative;
+}
+
+.icons {
+   margin: 15px;
+}
+
+.icons:hover {
+   background-color:  rgb(185, 223, 185);
+   
+}
+
+.icons > p {
+   text-align: center;
+   
+}
+
+.fas {
+   font-size: 100px;
+}
+
+.container-article {
+   margin: 0 auto;
+   width: 90%;
+   max-width: 900px;
+}
+
+.container-article > p {
+   padding: 0 0 50px 0;
+}
+
+.container-phrase {
+   display: flex;
+   flex-direction: column;
+}
+
+.container-phrase > p {
+   text-align: center;
+   font-size: 17px;
+   margin-top: 0;
+}
+
+.container-list {
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+   width: 90%;
+   max-width: 900px;
+}
+
+.list-block {
+   display: flex;
+   justify-content: center;
+}
+
+.container-order {
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+   padding: 20px;
+   width: 90%;
+   max-width: 900px;
+}
+.container-order > a {
+   margin: 0 auto;
+}
+
+footer {
+   background: url('../img/qwq.jpg') no-repeat center top / cover;
+   position: relative;
+   color: white;
+   font-size: 100%;
+   display: block;
+   letter-spacing: 0.1em;
+}
+
+.container-footer {
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+   padding: 20px;
+   width: 90%;
+   max-width: 900px;
+}
+
+.container-footer > ul {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   text-align: center;
+   list-style: none; 
+}
+
+.container-footer > ul > li {
+   margin: 0 20px;
+}
+
+.container-footer  ul  li a {
+   text-decoration: none;
+   
+} 
+
+.container-footer ul li a:hover {
+   color: chartreuse;
+}
+
+.container-footer p {
+   display: flex;
+   justify-content: center;
+   color: rgb(37, 66, 146);
+}
